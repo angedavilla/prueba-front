@@ -1,0 +1,28 @@
+<div class="container">
+  <h1 class="fs-4 my-4 mb-3 color-text">Información básica</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngIf="cliente" class="small-input text-secondary">
+        <label for="" class=""><small>Primer nombre</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.primerNombre" disabled>
+        <label for=""><small>Segundo nombre</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.segundoNombre" disabled>
+        <label for=""><small>Primer apellido</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.primerApellido" disabled>
+        <label for=""><small>Segundo apellido</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.segundoApellido" disabled>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div *ngIf="cliente" class="small-input text-secondary">
+        <label for=""><small>Teléfono</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.telefono" disabled>
+        <label for=""><small>Dirección</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.direccion" disabled>
+        <label for=""><small>Ciudad</small></label>
+        <input type="text" class="form-control mb-2 text-secondary" [value]="cliente.ciudadResidencia" disabled>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary my-3 boton-padding rounded-pill px-4" (click)="volver()">Volver</button>
+</div>

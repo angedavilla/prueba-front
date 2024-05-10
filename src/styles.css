@@ -1,0 +1,25 @@
+.text-primary {
+    color: #0040a8 !important;
+}
+
+.text-secondary {
+    color: #444444;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: #00317e;
+}
+
+.color-text {
+    color: #333333;
+}
+
+.boton-padding {
+    padding-right: 3.5rem !important;
+    padding-left: 3.5rem !important;
+}
+
+.small-input {
+    width: 15rem;
+}

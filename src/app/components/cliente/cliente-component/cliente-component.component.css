@@ -1,0 +1,20 @@
+.btn-disabled {
+    background-color: #f2f2f2;
+    border-color: #cccccc;
+    color: #666666;
+    font-weight: 500;
+}
+
+.bg-light-blue {
+    background-color: #e7f3ff;
+}
+
+.card-small {
+    width: 20rem;
+}
+
+@media (max-width: 767px) {
+    .card-small {
+        width: 19rem;
+    }
+}
